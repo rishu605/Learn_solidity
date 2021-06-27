@@ -1,0 +1,52 @@
+1. Ethereum networks can transfer money AS WELL AS store data.
+
+2. Ethereum network consists of multiple nodes.
+
+3. Node - A machine running an Ethereum client
+
+4. Each Node has a full copy of the Blockchain
+
+5. Blockchain - A database that stores a record of every transaction that has ever taken place
+
+6. Technology for Devs to create applications - Web3.js
+
+7. Technology for consumers using the Ethereum Network - Metamask
+
+8. When an account is created on Metamask, it has following three important things:
+ a - Account Address
+ b - Public Key
+ c - Private Key
+
+ All these are stored as hexadecimal
+
+9. Time taken to hash everything from zero to  a target nonce value - BLOCK TIME
+
+10. In effect, nonce is calculated under the candition that the resulting hash is less than a particular decimal number
+
+11. ETHEREUM has a Target Block time of 15 seconds
+
+12. Smart Contract - An account controlled by code.
+
+13. Smart Contract account has following info:
+  a - balance: Amount of ether this account owns
+  b - storage: Data storage for this Contract
+  c - Raw machine code for this contract
+
+14. Difference between a Smart Contract Account and an account created using client like Metamask:
+ a - A metamask account is the same for each network 
+     BUT 
+     A Smart Contract Account stays only in the network in which it was created
+ 
+15. Solidity Compiler creates 2 separate files:
+  a - Byte Code for deployment to the Ethereum Network
+  b - Application Binary Interface(ABI)
+
+16. 1 Ether = 10^18 Wei
+    1 Ether = 10^9 Gwei/Shannon/Nanoether/Nano
+    1 Ether = 10^3 Finney/Milliether/Milli
+
+17. Gas - Used to measure how much work we are executing with our code.
+
+18. gasPrice: Amount of Wei the sender is willing to pay per unit gas to get this transaction processed
+
+19. startGas/gasLimit: Maximum Unit of gas that this transaction can consume.

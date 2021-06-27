@@ -1,0 +1,31 @@
+1. Common Function Types:
+  a - public: Anyone can call this Function
+  b - private: Only this contract can call this Function
+  c - view: This function returns data and does not modify the contract's data
+  d - constant:   'same as above' "deprecated"
+  e - pure: function will not modify or even read the contract's data
+  f - payable: When someone call this function they might send ether along
+
+2. We CANNOT return data from a function that modifies our contract.
+
+!IMPORTANT
+3. When we define a storage variable,
+ and mark that variable with a 'public' keyword, then:
+ the contract will automatically create a new function with the exact same name as the variable.
+ When the function is called, it returns the variable itself.
+
+4. Difference between a money sending transaction and a contract creation transaction:
+ the 'to' field is EMPTY in a contract creation transaction
+
+5. 2 ways to run Contract Functions:
+  a - CALLING a function
+     - CANNOT MODIFY the contracts data
+     - Can return data
+     - Runs instantly
+     - Free to execute
+  b - Sending a Transaction to a function
+     - Can MODIFY a contract's data
+     - Takes time to execute
+     - Returns the transaction hash
+     - Costs money to execute
+
